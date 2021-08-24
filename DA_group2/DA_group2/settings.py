@@ -11,10 +11,7 @@ BOT_NAME = 'DA_group2'
 
 SPIDER_MODULES = ['DA_group2.spiders']
 NEWSPIDER_MODULE = 'DA_group2.spiders'
-#pipeline
-#folder
-ITEM_PIPELINES = {'scrapy.pipelines.images.ImagesPipeline': 1}
-IMAGES_STORE = 'spiders'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'DA_group2 (+http://www.yourdomain.com)'
