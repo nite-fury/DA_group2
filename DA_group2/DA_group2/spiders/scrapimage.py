@@ -12,7 +12,7 @@ class QuotesSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-       css_selector = '//img'
+       css_selector = 'img'
        for x in response.css(css_selector):
            newsel = '@src'
            yield {
