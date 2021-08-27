@@ -1,6 +1,5 @@
 import unittest
 import os
-from pathlib import Path
 class Testrecon(unittest.TestCase):
     def test(self):
         os.system("C:\\Users\\lenno\\Desktop\\DA_group2\\DA_group2\\DA_group2\\spiders\\Browser.py")
